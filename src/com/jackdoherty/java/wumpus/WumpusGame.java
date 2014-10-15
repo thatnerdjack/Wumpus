@@ -8,6 +8,7 @@ public class WumpusGame {
 	public static boolean gameActive = true;
 	
 	public static int currentRoomIndex = 1;
+    public static int fatigueLevel = -1; //start here
 	
 	// special i/o method required because Eclipse does not provide a Console object
 	private static String readLine(String prompt) {
