@@ -5,7 +5,7 @@ package com.jackdoherty.java.wumpus;
  */
 public class GameOptions { //working on this
 
-    public static String gameLevel = nil;
+    public static String gameLevel = null;
 
     public static String fatigue(int ammount, String effect) {
         if (WumpusGame.fatigueNum < 1 && effect == "down") {
