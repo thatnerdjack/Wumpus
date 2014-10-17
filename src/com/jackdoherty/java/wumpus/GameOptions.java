@@ -7,6 +7,6 @@ public class GameOptions { //working on this
 
     public static String gameLevel = nil;
 
-    public static String fatigue
+//    public static String fatigue  //working on this here specifically
 
 }
