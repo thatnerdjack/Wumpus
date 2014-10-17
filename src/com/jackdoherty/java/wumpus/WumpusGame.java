@@ -86,6 +86,7 @@ public class WumpusGame {
         map.addElement(new FoodElement());
         map.addElement(new FoodElement());
         map.addElement(new FoodElement());
+        RoomElement isFood = new FoodElement();
 		
 		currentRoomIndex = map.randomEmptyRoom();
 		
@@ -102,7 +103,7 @@ public class WumpusGame {
 				if (targetRoom != null) {
 					currentRoomIndex = targetRoom.getIndex();
 					targetRoom.handleElement();
-                    if (targetRoom.getElement() != new FoodElement()) //not working. start here.
+                    if (targetRoom.getElement() != isFood) //not working. start here.
                     System.out.println(fatigueLevel(1, "down"));
 				} else {
 					System.out.println("You can't move in that direction.");
