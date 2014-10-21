@@ -11,7 +11,7 @@ public class WumpusGame {
     public static int fatigueNum = 100;
 	
 	// special i/o method required because Eclipse does not provide a Console object
-	private static String readLine(String prompt) {
+	public static String readLine(String prompt) {
 	        String line = null;
 	        Console c = System.console();
 	        if (c != null) {
