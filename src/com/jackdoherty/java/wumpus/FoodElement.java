@@ -7,7 +7,7 @@ public class FoodElement extends RoomElement {
 
     public void handle() {
         System.out.println("You see some food!");
-        System.out.println(WumpusGame.fatigueLevel(5, "up"));
+        GameOptions.fatigueAction("eat");
     }
 
     public void printSenses() {
