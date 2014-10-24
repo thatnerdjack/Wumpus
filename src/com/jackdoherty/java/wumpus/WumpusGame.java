@@ -31,6 +31,9 @@ public class WumpusGame {
 
 	
 	public static void shootArrow(String input) {
+        if (input.equals("shoot")) {
+            input = "shoot z";
+        }
 		String direction = input.substring(6);  // direction should be input after "shoot " part
 		int dirNum = WumpusMap.directionNumber(direction);
 		if (dirNum == 0) {
