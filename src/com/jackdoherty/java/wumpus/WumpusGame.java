@@ -1,5 +1,25 @@
 //ELSIF FTW!!!!!
 
+/*
+    Features:
+        Bat Rooms
+        Pit Rooms
+        Food Rooms
+        Fatigue
+        Different levels of difficulty
+        Added fatigue command that displays remaining energy
+    Fixes:
+        Fixed bug where game crashes when user doesn't specify shoot direction
+        made readLine public
+    Classes and Methods:
+        GameOptions
+            gameLevelSet
+            fatigueAction
+        FoodElement
+        PitElement
+        BatElement
+ */
+
 package com.jackdoherty.java.wumpus;/* class com.jackdoherty.java.wumpus.WumpusGame -- main game class; provides main loop and some utilities.  */
 
 import java.io.*;
